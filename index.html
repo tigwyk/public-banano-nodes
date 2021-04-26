@@ -28,9 +28,9 @@
             <hr class="my-4">
             <p></p>
             <p>Banano is a decentralized, secure, fast, and feeless cryptocurrency network with added potassium. This site queries each of the below Public Banano Node APIs (from your browser) to give you a real-time view of the node's availability.</p>
-            <p>If you want a simple wallet to receive and send Nano, see the <a href="https://nanowallets.guide/" target="_new">Unofficial Nano Wallets Guide</a>.</p>
-            <p>If you want more information on running your own Nano node (public or private) as well as more resources on building with Nano, check the <a href="https://nano.org/build" target="_new">Official Nano Website</a>.</p>
-            <p>If you want your node added to this list, <a href="mailto:info@somenano.com">email me</a> or find me on <a href="https://twitter.com/SomeNanoTweets">Twitter @SomeNanoTweets</a>.</p>
+            <p>If you want a simple wallet to receive and send Banano, see the <a href="https://banano.cc/#wallets" target="_new">Official Banano Wallets Guide</a>.</p>
+            <p>If you want more information on running your own Banano node (public or private) as well as more resources on building with Banano, check the <a href="https://banano.cc" target="_new">Official Banano Website</a>.</p>
+            <p>If you want your node added to this list, ping me on discord Tigwyk#1946 or find me on <a href="https://twitter.com/tigwyk">Twitter @tigwyk</a>.</p>
         </div>
 
         <div id="content">
@@ -85,7 +85,7 @@
           
               <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body">
-                    <p><span class="font-weight-bold">Node Version:</span> Queries the node with <a href="https://docs.nano.org/commands/rpc-protocol/#version" target="_new">action: version</a> and compares against latest version of the <a href="https://github.com/nanocurrency/nano-node/releases" target="_new">Nano Node</a>.</p>
+                    <p><span class="font-weight-bold">Node Version:</span> Queries the node with <a href="https://docs.nano.org/commands/rpc-protocol/#version" target="_new">action: version</a> and compares against latest version of the <a href="https://github.com/BananoCoin/banano" target="_new">Banano Node</a>.</p>
                     <p><span class="font-weight-bold">Block Counts:</span> Queries the node with <a href="https://docs.nano.org/commands/rpc-protocol/#block_count" target="_new">action: block_count</a> and checks for uncomfirmed blocks. If there are a lot of unconfirmed blocks (see <a href="/js/node_tests.js" target="_new">node_tests.js</a> for specifics) the test fails. If there are only a few unconfirmed, the test is a partial success.</p>
                     <p><span class="font-weight-bold">API Supports "process":</span> Queries the node with <a href="https://docs.nano.org/commands/rpc-protocol/#process" target="_new">action: process</a> and checks that the node returns an error message indicating it attempted to process the block. I am not attempting to broadcast legitimate blocks for these tests.</p>
                     <p><span class="font-weight-bold">API Supports "work_generate":</span> Queries the node with <a href="https://docs.nano.org/commands/rpc-protocol/#work_generate" target="_new">action: work_generate</a> and checks for a returned work value. Many public nodes won't support this action because of the processing power costs. Some that allow limit requests via tokens/time will charge more than for a work_generate call than any other.</p>
@@ -109,9 +109,11 @@
               </div>
               <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                 <div class="card-body">
-                    <p>Here are some resources that will help you BUIDL/develop/code with Nano. This is certainly not a comprehensive list. It is mainly resources/tools that I have personally used and think provide the most value for people just getting into developing with Nano.</p>
+                    <p>Here are some resources that will help you BUIDL/develop/code with Banano and Nano. This is certainly not a comprehensive list. It is mainly resources/tools that I have personally used and think provide the most value for people just getting into developing with Banano and Nano.</p>
                     <p>
                         <ul>
+                            <li><a href="https://github.com/BananoCoin/" target="_new">Banano github link</a>: Lists all of the Banano Team's github repositories.</li>
+                            <li><a href="https://banano.cc/" target="_new">Official Banano.cc</a>: Banano Team's website with FAQ, Wallets, and Explorer</li>
                             <li><a href="https://nano.org/build" target="_new">Official nano.org</a>: Developer resources from the Nano Foundation.</li>
                             <li><a href="https://docs.nano.org/" target="_new">Nano Documentation</a>: If you are interacting with a Nano node, this is the documentation you need to be reading.</li>
                             <li><a href="https://nano.org/tools" target="_new">Nano Tools</a>: A phenomenal list of tools (many of which are on this list) that will help you integrate Nano in whatever environment you are developing.</li>
@@ -137,7 +139,7 @@
               <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                 <div class="card-body">
                     <p>Aww, thanks for the kind words.</p>
-                    <p>I will gratefully allow you to buy me a beer. If you are so inclined, please donate here: <a href="https://nanocrawler.cc/explorer/account/nano_3nahhuscs9ott91ynow4czt96nmwk8ugsw4k6acki36b4n5fcryuuk96mfrm/history" target="_new">nano_3nahhuscs9ott91ynow4czt96nmwk8ugsw4k6acki36b4n5fcryuuk96mfrm</a></p>
+                    <p>I will gratefully allow you to buy me a beer. If you are so inclined, please donate here: <a href="https://creeper.bananode.eu/explorer/account/ban_16qwweg3e6nm69rkohq1cn75bzohiiemf89pky573ua9oyzwn8d63gg3tnny/history" target="_new">ban_16qwweg3e6nm69rkohq1cn75bzohiiemf89pky573ua9oyzwn8d63gg3tnny</a></p>
                 </div>
               </div>
             </div>

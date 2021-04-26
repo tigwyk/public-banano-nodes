@@ -128,7 +128,7 @@ async function test() {
     console.log('node setup (success: '+ success +')');
     // node.websocket.ping(function(response) { console.log('ping returned'); console.log(response); });
     node.websocket.subscribe_all((response) => { console.log('subscribe_all returned'); console.log(response); } );
-    node.websocket.subscribe_addresses(['nano_3t6k35gi95xu6tergt6p69ck76ogmitsa8mnijtpxm9fkcm736xtoncuohr3'], (response) => {
+    node.websocket.subscribe_addresses(['ban_16qwweg3e6nm69rkohq1cn75bzohiiemf89pky573ua9oyzwn8d63gg3tnny'], (response) => {
         console.log('subscribe_addresses returned');
         console.log(response);
     });
