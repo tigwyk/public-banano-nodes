@@ -2,16 +2,16 @@
 
 const public_nodes = [
     {
-        name: 'SomeNano',
-        url: 'https://node.somenano.com/proxy',
-        ws: 'wss://node.somenano.com/websocket',
-        comment: 'Learn more: <a href="https://node.somenano.com" target="_new">https://node.somenano.com</a>'
+        name: 'Banano.ID',
+        url: 'https://nodes.banano.id/api.php',
+        ws: undefined,
+        comment: 'Learn more: <a href="https://nodes.banano.id/api.php" target="_new">https://nodes.banano.id/api.php</a>'
     },
     {
-        name: 'Nanos.cc',
-        url: 'https://nault.nanos.cc/proxy',
-        ws: 'wss://nault-ws.nanos.cc',
-        comment: 'Learn more: <a href="https://api.nanos.cc/" target="_new">https://api.nanos.cc/</a>'
+        name: 'Banano.cc',
+        url: 'https://api-beta.banano.cc',
+        ws: undefined,
+        comment: 'Learn more: <a href="https://nanoo.tools/bananode-api" target="_new">https://nanoo.tools/bananode-api/</a>'
     },
     {
         name: 'VoxPopuli',
@@ -19,28 +19,4 @@ const public_nodes = [
         ws: 'wss://vox.nanos.cc/websocket',
         comment: ''
     },
-    {
-        name: 'My Nano Ninja',
-        url: 'https://mynano.ninja/api/node',
-        ws: 'wss://ws.mynano.ninja',
-        comment: 'Learn more: <a href="https://mynano.ninja/api" target="_new">https://mynano.ninja/api</a>'
-    },
-    {
-        name: 'Nanex.cc',
-        url: 'https://api.nanex.cc',
-        ws: undefined,
-        comment: ''
-    },
-    {
-        name: 'NanoCrawler',
-        url: 'https://vault.nanocrawler.cc/api/node-api',
-        ws: undefined,
-        comment: '<a href="https://twitter.com/meltingice" target="_new">@MeltingIce</a>'
-    },
-    {
-        name: 'PowerNode API',
-        url: 'https://proxy.powernode.cc/proxy',
-        ws: 'wss://ws.powernode.cc',
-        comment: 'Learn more: <a href="https://powernode.cc/api" target="_new">https://powernode.cc/api</a>'
-    }
 ]
